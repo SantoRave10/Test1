@@ -1,0 +1,16 @@
+﻿{
+  "propertyEditors": [
+    {
+      "alias": "UmbracoSchedulerLogout",
+      "name": "Umbraco Scheduler Logout",
+      "isParameterEditor": true,
+      "editor": {
+        "view": "~/App_Plugins/UmbracoScheduler.Logout/UmbracoScheduler.Logout.html"
+      }
+    }
+  ],
+  "javascript": [
+    "~/App_Plugins/UmbracoScheduler.Logout/UmbracoScheduler.Logout.controller.js",
+    "~/App_Plugins/UmbracoScheduler.Logout/Dialogs/LogoutMessage/LogoutMessage.controller.js"
+  ]
+}
